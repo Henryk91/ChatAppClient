@@ -37,6 +37,7 @@ export class DocumentListComponent implements OnInit, OnDestroy {
 
   newDoc(name:string, creator:string) {
     this.documentService.newDocument(name, creator);
+    this.getContacts();
   }
 
   hideNav(){
@@ -58,6 +59,7 @@ export class DocumentListComponent implements OnInit, OnDestroy {
     this.globals.userName = name;
     this.getContacts();  
     this.documentService.addUser(name, pass);
+    setTimeout(() => {window.location.reload()}, 500)
   }
 
   loggedInCheck(){
