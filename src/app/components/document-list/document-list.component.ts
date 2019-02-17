@@ -62,7 +62,7 @@ export class DocumentListComponent implements OnInit, OnDestroy {
 
   loggedInCheck(){
     var ls = window.localStorage.getItem('UserName');
-    if(ls.length > 0 && ls.indexOf('test') == -1){
+    if(ls !== null && ls.indexOf('test') == -1){
       this.loggedIn = true;
     }else{
       this.userame = '';
