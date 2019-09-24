@@ -1,8 +1,8 @@
 {
   "name": "ChatAppClient",
   "short_name": "ChatAppClient",
-  "theme_color": "#1976d2",
-  "background_color": "#fafafa",
+  "theme_color": "#000080",
+  "background_color": "#d7dff5",
   "display": "standalone",
   "scope": "/ChatAppClient/",
   "start_url": "index.html",
