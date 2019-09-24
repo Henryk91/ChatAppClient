@@ -13599,7 +13599,7 @@
             wa(4608, ul, ul, []),
             wa(1073742336, rl, rl, []),
             wa(1024, ni, Bp, []),
-            wa(256, df, 'ngsw-worker.js', []),
+            wa(256, df, '/ChatAppClient/ngsw-worker.js', []),
             wa(256, ff, { enabled: !0 }, []),
             wa(
               1024,
