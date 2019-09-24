@@ -5,7 +5,7 @@
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "/ChatAppClient/",
-  "start_url": "/ChatAppClient/",
+  "start_url": "index.html",
   "icons": [   
     {
       "src": "assets/icons/favicon.png",
